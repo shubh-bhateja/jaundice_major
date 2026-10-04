@@ -1,25 +1,65 @@
 # macOS
 .DS_Store
+**/.DS_Store
 
-# Python
+# Virtual Environments
+.venv/
+.venv*/
+*venv*/
+venv/
+env/
+ENV/
+**/final-venv/
+**/final-venv-py311/
+
+# Python / Caches
 __pycache__/
+**/__pycache__/
 *.pyc
 *.pyo
+*.pyd
 .ipynb_checkpoints/
+**/.ipynb_checkpoints/
 
-# Large model files (>100MB GitHub limit)
+# IDE
+.vscode/
+.idea/
+
+# Large Model weights (>50MB / 100MB limit on GitHub)
 *.h5
 *.keras
 *.weights.h5
 *.pkl
+*.pt
+*.pth
+*.onnx
 
-# Dataset images (too large for GitHub)
+# Large datasets, caches & zip archives
+*.npy
+*.npz
+*.zip
+*.tar.gz
 images/
-NeoJaundice/images/
+**/images/
+database/
+**/database/
+data/
+original_cropped_skin_patches/
+**/original_cropped_skin_patches/
+package_contents/
+**/package_contents/
+train_outputs/
+**/train_outputs/
 
-# Temporary files
-tempCodeRunnerFile.py
+# Temporary files & logs
+tempCodeRunnerFile.*
+**/tempCodeRunnerFile.*
 ~$*
+scratch/
+**/scratch/
+runs/
+**/runs/
 
-# Synopsis report
+# Synopsis docx
 final_synopsis_report.docx
+**/final_synopsis_report.docx

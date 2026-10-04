@@ -1,0 +1,38 @@
+{
+  "regression_metrics": {
+    "rmse": 4.347776454144675,
+    "mae": 3.579301118850708,
+    "r2": 0.357624888420105
+  },
+  "classification_metrics": {
+    "accuracy": 0.5066666666666667,
+    "precision": 0.2567111111111111,
+    "recall": 0.5066666666666667,
+    "f1": 0.34076696165191744
+  },
+  "confusion_matrix": [
+    [
+      228,
+      0,
+      0
+    ],
+    [
+      102,
+      0,
+      0
+    ],
+    [
+      120,
+      0,
+      0
+    ]
+  ],
+  "data_split": {
+    "train_patients": 521,
+    "val_patients": 74,
+    "test_patients": 150,
+    "train_samples": 1563,
+    "val_samples": 222,
+    "test_samples": 450
+  }
+}

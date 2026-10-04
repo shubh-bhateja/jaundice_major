@@ -1,0 +1,14 @@
+path,size,extension,is_file
+visual_branch/smoke_test.py,1667,.py,True
+visual_branch/model_integration.py,4948,.py,True
+visual_branch/preprocess.py,4749,.py,True
+visual_branch/data_loader.py,7142,.py,True
+visual_branch/train.py,7348,.py,True
+visual_branch/data_generator.py,6392,.py,True
+visual_branch/model_1dcnn.py,2656,.py,True
+visual_branch/__pycache__,36249,,False
+visual_branch/__pycache__/data_loader.cpython-311.pyc,9379,.pyc,True
+visual_branch/__pycache__/data_loader.cpython-313.pyc,8262,.pyc,True
+visual_branch/__pycache__/model_integration.cpython-311.pyc,3780,.pyc,True
+visual_branch/__pycache__/data_generator.cpython-313.pyc,7105,.pyc,True
+visual_branch/__pycache__/data_generator.cpython-311.pyc,7723,.pyc,True

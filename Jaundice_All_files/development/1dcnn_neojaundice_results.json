@@ -1,0 +1,43 @@
+{
+  "paper": "Makhloughi (2025) - 10.1038/s41598-025-96100-9",
+  "method": "1D-CNN with RGB+HSV statistical color features",
+  "regression": {
+    "rmse": 3.4114401935745464,
+    "mae": 2.6596744060516357,
+    "r2": 0.5462460517883301,
+    "epochs": 88
+  },
+  "classification": {
+    "accuracy": 0.7444444444444445,
+    "precision": 0.7279204651125181,
+    "recall": 0.7444444444444445,
+    "f1": 0.7325352813164725,
+    "epochs": 30,
+    "confusion_matrix": [
+      [
+        53,
+        11,
+        8
+      ],
+      [
+        11,
+        41,
+        53
+      ],
+      [
+        6,
+        26,
+        241
+      ]
+    ]
+  },
+  "data": {
+    "total": 2235,
+    "train": 1563,
+    "val": 222,
+    "test": 450,
+    "patients_train": 521,
+    "patients_val": 74,
+    "patients_test": 150
+  }
+}

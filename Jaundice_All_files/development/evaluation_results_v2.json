@@ -1,0 +1,46 @@
+{
+  "regression": {
+    "rmse": 3.287815464679421,
+    "mae": 2.5845947265625,
+    "r2": 0.6326591968536377
+  },
+  "classification": {
+    "accuracy": 0.7688888888888888,
+    "precision": 0.622793723689246,
+    "recall": 0.7688888888888888,
+    "f1": 0.6815102803738319
+  },
+  "confusion_matrix": [
+    [
+      226,
+      2,
+      0
+    ],
+    [
+      21,
+      0,
+      81
+    ],
+    [
+      0,
+      0,
+      120
+    ]
+  ],
+  "data_split": {
+    "train_patients": 521,
+    "val_patients": 74,
+    "test_patients": 150,
+    "train_samples": 1563,
+    "val_samples": 222,
+    "test_samples": 450
+  },
+  "training": {
+    "epochs_run": 79,
+    "time_seconds": 223.3,
+    "best_val_loss": 11.0597505569458,
+    "final_train_loss": 4.232193946838379,
+    "learning_rate": 0.0005,
+    "batch_size": 16
+  }
+}
